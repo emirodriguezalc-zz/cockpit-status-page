@@ -1,24 +1,17 @@
 import React from 'react';
-import logo from './logo.svg';
+import DataBox from './components/dataBox/index';
 import './App.css';
+import logo from './logo.png';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='main-wrapper'>
+      <div className='main-header'>BRIDGE <img src={logo} className="app-logo" alt="logo"/> TECHNOLOGIES</div>
+      <div className='main-content'>
+        <h1 className='main-title'>SERVER STATUS</h1>
+        <DataBox />
+        <div className='main-footer'> Copyright © 2020 Bridge Technologies. All rights reserved</div>
+      </div>
     </div>
   );
 }

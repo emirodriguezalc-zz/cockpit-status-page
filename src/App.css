@@ -1,38 +1,40 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.main-title {
+  font-family: 'Pathway Gothic One';
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
+  font-size: 40px;
+  margin: 0;
+  padding: 15px;
 }
 
-.App-link {
-  color: #61dafb;
+.main-content {
+  background-image: url(https://bridgetech.tv/wp/wp-content/uploads/2018/03/bridgetech-world.jpg);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.main-footer {
+  bottom: 0;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+}
+
+.main-header {
+  display: flex;
+  font-family: 'Pathway Gothic One';
+  font-size: 24px;
+  color: white;
+  font-weight: 900;
+  top: 0;
+  width: 100%;
+  padding: 10px;
+  text-align: left;
+  background-color:rgb(65, 67, 74);
+}
+
+.app-logo {
+  padding: 0 5px;
+  height: 32px;
 }

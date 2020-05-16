@@ -1,0 +1,14 @@
+.content-box {
+  font-size: 28px;
+  font-family: 'Pathway Gothic One';
+  color: white;
+}
+
+.content-box-first {
+  background-color: rgb(211, 211, 211, 0.4);
+  padding: 15px;
+}
+
+.content-box-second {
+  padding: 15px;
+}

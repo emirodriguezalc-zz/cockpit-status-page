@@ -11,3 +11,8 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: 'Pathway Gothic One';
+  src: local('PathwayGothicOne'), url(./fonts/PathwayGothicOne-Regular.ttf) format('truetype');
+}
